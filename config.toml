@@ -1,0 +1,98 @@
+baseURL = "https://cyclicboosting.org"
+languageCode = "en-us"
+title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+theme = "timer-hugo"
+# post pagination
+paginate = "2" # see https://gohugo.io/extras/pagination/
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Navbar Menus
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[menu.main]]
+name = "Service"
+url = "service/"
+weight = 3
+
+[[menu.main]]
+name = "Gallery"
+url = "gallery/"
+weight = 4
+
+[[menu.main]]
+name = "Blog"
+url = "blog/"
+weight = 5
+
+[[menu.main]]
+name = "Contact"
+url = "contact/"
+weight = 6
+
+# Site Params
+[params]
+home = "Home"
+logo = "images/Tiny_logo_50px.png"
+dateFormat = "6 January 2006"
+# Meta data
+description = "Timer Hugo theme"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# contact form action
+contactFormAction = "#" # contact form works with https://formspree.io
+
+# Banner Section
+[params.banner]
+enable = true
+bgImage = "images/Sebastian_Neubauer_A_swirl_of_data_and_visualizations_3d_plots__d2938bed-18bd-4344-b9f4-0abc242fb011.png"
+heading = "Cyclic Boosting"
+description = "The lightning-fast machine learning library that delivers exceptional results with minimal fine-tuning"
+# button
+btn = true
+btnText = "Getting Started"
+btnURL = "https://cyclic-boosting.readthedocs.io/en/latest/"
+
+# flip text
+[[params.banner.flipText]]
+title = "FAST"
+[[params.banner.flipText]]
+title = "ROBUST"
+[[params.banner.flipText]]
+title = "ACCURATE"
+
+# Homepage About Section
+[params.about]
+enable = true
+title = "What is Cyclic Boosting"
+content = "One key aspect of cyclic boosting is its ability to handle complex nonlinear relationships between variables. By adding weak learners to the model, the algorithm is able to capture and model complex interactions between variables that may be missed by simpler models. Additionally, by adjusting the weights of each component at each iteration, cyclic boosting is able to adapt the model to fit the specific dataset and improve prediction accuracy.<br>Overall, cyclic boosting is a powerful machine learning algorithm that is particularly effective for complex datasets with nonlinear relationships between variables. By iteratively combining weak learners and adjusting their weights, cyclic boosting is able to create highly accurate models that can be used for a wide range of applications, including demand forecasting, customer churn prediction, and more."
+image = "images/Sebastian_Neubauer_very_simplistic_logo_of_a_spiral_final_transparent.png"
+
+# Call to Action
+[params.cta]
+enable = true
+title = "SO WHAT YOU THINK ?"
+content = "We value your thoughts and feedback on our open-source project."
+btnText = "Contribute on github"
+btnURL = "https://github.com/Blue-Yonder-OSS/cyclic-boosting"
+
+# Portfolio Section On Homepage
+[params.portfolio]
+enable = true
+title = "Use Cases"
+subtitle = "Cyclic Boosting can be used for many different use-cases, here are just some examples"
+
+# social icon
+[[params.socialIcon]]
+icon = "ion-social-twitter"
+url = "https://twitter.com/BlueYonderTech"
+
