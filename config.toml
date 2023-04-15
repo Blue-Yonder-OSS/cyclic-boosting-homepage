@@ -4,6 +4,8 @@ title = "Cyclic Boosting"
 theme = "timer-hugo"
 # post pagination
 paginate = "2" # see https://gohugo.io/extras/pagination/
+googleAnalytics = "G-YXTCWS7BW3"
+
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
 
@@ -39,7 +41,8 @@ dateFormat = "6 January 2006"
 description = "The lightning-fast machine learning library that delivers exceptional results with minimal fine-tuning"
 author = "Blue Yonder"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+#googleAnalitycsID = "G-YXTCWS7BW3"
+
 # contact form action
 contactFormAction = "#" # contact form works with https://formspree.io
 
